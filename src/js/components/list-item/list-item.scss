@@ -1,0 +1,54 @@
+.station-li {
+  padding-left: 0.9375rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 0.1875rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
+  padding: 0.625rem 0.625rem 0.9375rem;
+
+  @media (max-width: 540px) {
+    flex-flow: column;
+    padding-top: 1.4rem;
+    text-align: center;
+  }
+}
+
+.station-numbers-div {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 1.5625rem 1.25rem 1.5625rem 0;
+  gap: 1.875rem;
+}
+
+.locks-section,
+.bikes-section {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font: 1.875rem;
+  gap: 0.625rem;
+}
+
+.number-locks,
+.number-bikes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  font-size: 2.0625rem;
+}
+
+.number-locks {
+  background-color: lightgrey;
+}
+
+.number-bikes {
+  background-color: #005fc9;
+  color: white;
+}
